@@ -1,5 +1,5 @@
 IMPORTANT LINKS:
-MindMap: My New Mind Map - MindMeister Mind Map
+MindMap: https://www.mindmeister.com/map/2584095043
 
 Planner: https://tasks.office.com/atu.ie/Home/PlanViews/DKYeXpD390Sm64ghIfR_PZgAGitJ?Type=PlanLink&Channel=Link&CreatedTime=638114608615740000
 
