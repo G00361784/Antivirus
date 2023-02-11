@@ -40,3 +40,16 @@ nav ul li a {
     font-weight: bold;
     font-size: 2vh;
 }
+
+li:hover {
+    background-color: rgb(92, 162, 185);
+}
+
+.logo:hover {
+    animation: animate 1s infinite  alternate;
+}
+
+@keyframes animate{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
