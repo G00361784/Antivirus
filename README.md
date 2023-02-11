@@ -11,5 +11,6 @@ FlowChart: https://app.creately.com/d/eMAPCoMUy2m/edit/s/H1RValV6GvC
 
 Tomas Necesany {
   9/02 - Simple HTML example with css
+
   11/02 - Added animation to the logo and select effect to a navigation bar
 }
