@@ -24,32 +24,53 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1%;
+    padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 0;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 6% 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 180%;
 }
 
 li:hover {
-    background-color: rgb(92, 162, 185);
+    animation: navigation 1s;
+    background-color: rgba(92, 162, 185, 0.5);
+    
 }
 
 .logo:hover {
     animation: animate 1s infinite  alternate;
 }
 
+.body {
+    background-color: rgba(160, 160, 160, 0.315);
+    text-align: center;
+    width: 85%;
+    margin:auto;
+}
+
+.body > p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+@keyframes navigation {
+    0%   {background-color:rgba(92, 162, 185, 0)}
+    100%   {background-color:rgba(92, 162, 185, 0.5)}
+  }
+
 @keyframes animate{
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+
