@@ -52,16 +52,25 @@ li:hover {
     animation: animate 1s infinite  alternate;
 }
 
-.body {
-    background-color: rgba(160, 160, 160, 0.315);
-    text-align: center;
-    width: 85%;
+.top-left-body {
+    background-color: rgba(210, 211, 208, 0.616);
+    text-align: left;
+    width: 75%;
     margin:auto;
+    padding-top: 144px;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
 }
 
-.body > p,h1,h2,h3,h4,h5,h6 {
+
+.top-left-bodyy > p {
     margin: 0;
     font-size: 2.5vh;
+}
+
+.top-left-body > h1 {
+    margin: 0;
+    font-size: 40px;
 }
 
 @keyframes navigation {
