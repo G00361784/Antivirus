@@ -1,3 +1,6 @@
+![biglogo](https://user-images.githubusercontent.com/79973298/219508333-e77f0c7c-6cbd-45c5-a4f3-e651b48762f2.png)
+
+
 IMPORTANT LINKS:
 MindMap: https://www.mindmeister.com/map/2584095043
 
@@ -15,3 +18,4 @@ Tomas Necesany {
 
   11/02 - Added animation to the logo and select effect to a navigation bar
 }
+
