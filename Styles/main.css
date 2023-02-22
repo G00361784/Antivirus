@@ -117,5 +117,15 @@ li:hover {
     100% { transform: translateY(-10px); }
 }
 
+#footer{
+	background-color: rgba(136, 190, 207, 0.288);
+	margin-top: 700px;
+	margin-left: 150px;
+}
 
 
+.footeralink{
+	margin-left: 15%;
+	width: 5%;
+	
+}
