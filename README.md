@@ -26,5 +26,10 @@ Tomas Necesany {
   
         - Added ContactUs.html
         - Optimized index.html
+        
+  22/02
+  
+        - Continuing the index.html
+        - Fixed the bug where header list was changing to a wrong color after hovering over it.
 }
 
