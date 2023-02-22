@@ -7,7 +7,6 @@ body {
     font-family:Verdana;
 }
 
-
 .header {
     background-color: #ffffff;
     height: 20%;
@@ -46,7 +45,7 @@ nav ul li a {
 
 li:hover {
     animation: navigation 1s;
-    background-color: rgba(136, 190, 207, 0.288);
+    background-color: rgba(92, 162, 185, 0.5);
     
 }
 
@@ -55,42 +54,57 @@ li:hover {
 }
 
 .main-body {
-    background-color: rgba(245, 237, 237, 0.250);
+    background-color: rgba(245, 237, 237, 0.350);
     text-align: left;
     width: 75%;
     margin:auto;
     padding-top: 80px;
-    border-bottom-left-radius: 2vh;
-    border-bottom-right-radius: 2vh;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.body-left > p {
-    padding-left: 15px;
-    margin: 0;
-    font-size: 2.5vh;
+.features-body {
+    background-color: rgba(105, 103, 103, 0.644);
+    text-align: left;
+    width: 100%;
+    height: 120px;
+    margin:auto;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.body-left{
+.center-body {
+    background-color: rgba(245, 237, 237, 0.350);
+    text-align: left;
+    width: 75%;
+    margin:auto;
+    padding: 20px 15px 20px 15px;
+}
+
+.center-body > h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+.body-intro{
     width: 50%;
     box-sizing: inherit;
     
 }
 
-.body-left > h1 {
-    padding-left: 30px;
+.body-intro > h1 {
     margin: 0;
+    margin-left: 30px;
     font-size: 65px;
     text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.body-left > p {
+.body-intro > p {
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5vh;
+    font-size: 30px;
     display: list-item;          
     list-style-type: square;   
     list-style-position: inside;
+    padding-left: 10px;
 }
 
 .frontprotection {
