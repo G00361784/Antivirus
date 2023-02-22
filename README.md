@@ -17,5 +17,9 @@ Tomas Necesany {
   9/02 - Simple HTML example with css
 
   11/02 - Added animation to the logo and select effect to a navigation bar
+
+  15/02 - Added ContactUs.html
+  
+        - Optimized index.html
 }
 
