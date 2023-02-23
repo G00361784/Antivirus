@@ -27,9 +27,6 @@ Tomas Necesany {
   
         - Added ContactUs.html
         - Optimized index.html
-
-  21/02 
-        -added about us page
         
   22/02
   
@@ -37,3 +34,8 @@ Tomas Necesany {
         - Fixed the bug where header list was changing to a wrong color after hovering over it.
 }
 
+Joseph McCole{
+  21/02 
+        -added about us page
+
+}
