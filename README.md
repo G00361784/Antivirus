@@ -27,6 +27,9 @@ Tomas Necesany {
   
         - Added ContactUs.html
         - Optimized index.html
+
+  21/02 
+        -added about us page
         
   22/02
   
