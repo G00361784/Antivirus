@@ -1,7 +1,8 @@
-![biglogo](https://user-images.githubusercontent.com/79973298/219508333-e77f0c7c-6cbd-45c5-a4f3-e651b48762f2.png)
+![biglogo](https://user-images.githubusercontent.com/79973298/221364707-8383d99c-37db-413e-9c4f-34077528db94.png)
 
 
 IMPORTANT LINKS:
+
 MindMap: https://www.mindmeister.com/map/2584095043
 
 Planner: https://tasks.office.com/atu.ie/Home/PlanViews/DKYeXpD390Sm64ghIfR_PZgAGitJ?Type=PlanLink&Channel=Link&CreatedTime=638114608615740000
@@ -33,3 +34,8 @@ Tomas Necesany {
         - Fixed the bug where header list was changing to a wrong color after hovering over it.
 }
 
+Joseph McCole{
+  21/02 
+        -added about us page
+
+}
