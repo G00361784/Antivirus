@@ -37,5 +37,9 @@ Tomas Necesany {
 Joseph McCole{
   21/02 
         -added about us page
+		
+  26/02  
+		- updated about us page with content(unfinished)
+		- added some bootstrap functionality to about us page 
 
 }
