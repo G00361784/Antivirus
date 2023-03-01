@@ -54,7 +54,7 @@ li:hover {
 }
 
 .main-body {
-    background-color: rgba(245, 237, 237, 0.350);
+    background-color: rgba(245, 237, 237, 0.1);
     text-align: left;
     width: 75%;
     margin:auto;
@@ -74,7 +74,7 @@ li:hover {
 }
 
 .center-body {
-    background-color: rgba(245, 237, 237, 0.350);
+    background-color: rgba(245, 237, 237, 0.1);
     text-align: left;
     width: 75%;
     margin:auto;
@@ -104,7 +104,7 @@ li:hover {
     display: list-item;          
     list-style-type: square;   
     list-style-position: inside;
-    padding-left: 10px;
+    padding-left: 55px;
 }
 
 .frontprotection {
@@ -114,10 +114,9 @@ li:hover {
 }
 
 .download {
-    width: 100%;
     height: auto;
     padding-top: 75px;
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 

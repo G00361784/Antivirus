@@ -46,3 +46,11 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
+.contactustext {
+  border: 2px solid;
+  border-radius: 50px;
+  margin: 25px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
