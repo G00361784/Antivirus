@@ -53,8 +53,21 @@ li:hover {
     animation: animate 1s infinite  alternate;
 }
 
+#container{
+	width:80%;
+	margin-left:10%;
+	
+}
+
 h1{
 	text-align:center;
 	width: 70%;
 	margin-left:15%;
+}
+
+h2{
+	float:left;
+	width:50%;
+	margin-left:10%;
+	
 }
