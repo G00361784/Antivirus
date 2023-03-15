@@ -36,9 +36,9 @@ Tomas Necesany {
   14/03
   
         - Changed colors of background
-	- Updated index.html
-	- Fixed links (all work now)
-	- Minor changes to CSS
+        - Updated index.html
+        - Fixed links (all work now)
+        - Minor changes to CSS
 }
 
 Joseph McCole{
