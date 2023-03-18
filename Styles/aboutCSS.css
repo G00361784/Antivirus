@@ -102,6 +102,7 @@ h2{
 #footer{
 	background-color:#bfc9d2;
 	height:150px;
+	width:100%;
 }
 
 #footer a img{
@@ -119,6 +120,7 @@ h2{
 
 footer ul{
 	list-style-type: none;
+	float:right;
 }
 
 #ul2{
@@ -137,7 +139,7 @@ footer ul{
 }
 
 #shop{
-	float:right;
+	float:left;
 }
 
 #premium{
