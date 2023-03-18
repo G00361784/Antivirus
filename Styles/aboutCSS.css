@@ -5,6 +5,7 @@ body {
     background-color:#ffffff;
     font-size:14px;
     font-family:Verdana;
+
 }
 
 .header {
@@ -90,16 +91,7 @@ h2{
 #container2 img {
 	width:40%;
 }
-	
-.parallax{
-  background-image: url("Photos/Logo.png");
-  min-height: 500px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	
-}
+
 #footer{
 	background-color:rgba(92, 162, 185, 0.5);
 	height:100px;
@@ -111,5 +103,6 @@ h2{
 }
 #footer a{
 	margin-left:10%;
-	Width:17%%;
+	Width:17%;
+	font-family:Verdana;
 }
