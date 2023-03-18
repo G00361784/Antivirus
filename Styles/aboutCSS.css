@@ -73,7 +73,7 @@ h2{
 #container2{
 	position:relative;
 	text-align: center;
-	color:black;
+	color:rgba(92, 162, 185, 0.5);
 }
 
 #aboutusmain img{
@@ -87,10 +87,17 @@ h2{
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+#container2 img {
+	width:40%;
+}
 	
-
-#p1{
-
+.parallax{
+  background-image: url("Photos/Logo.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	
 }
 #footer{
