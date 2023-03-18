@@ -90,59 +90,55 @@ h2{
 }
 
 #container2{
-	float:left;
-	
+	margin-left:15%;
+	width:70%
 	
 }
-#container2 img {
-	width:40%;
 
-}
 
 #footer{
 	background-color:#bfc9d2;
-	height:150px;
+	height:100px;
 	width:100%;
 }
 
 #footer a img{
-	height:50px;
+	height:100px;
 	margin-left:5%;
 	margin-right:5%;
 }
 #footer a{
-
 	font-family:Verdana;
 	text-decoration: none;
 	color:red;
 }
 
 
-footer ul{
+
+
+#footer ul{
 	list-style-type: none;
 	float:right;
+	margin-right:5%
 }
 
 #ul2{
 	float:right;
-	
+	margin-right:5%
 	
 }
 
-#download{
-	margin-left:30%
-}
+#download{}
 
 #about{
-	margin-left:30%;
 	
 }
 
 #shop{
-	float:left;
+	
 }
 
 #premium{
-	margin-left:30%;
+	
 	
 }
