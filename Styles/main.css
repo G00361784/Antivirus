@@ -151,13 +151,44 @@ li:hover {
 
 #footer{
 	background-color: rgba(136, 190, 207, 0.288);
-	margin-top: 700px;
-	margin-left: 150px;
+	/*margin-top: 700px;
+	margin-left: 150px;*/
 }
 
 
 .footeralink{
 	margin-left: 15%;
 	width: 5%;
+	
+}
+#footer{
+	background-color:#bfc9d2;
+	height:100px;
+	width:100%;
+}
+
+#footer a img{
+	height:100px;
+	margin-left:5%;
+	margin-right:5%;
+}
+#footer a{
+	font-family:Verdana;
+	text-decoration: none;
+	color:red;
+}
+
+
+
+
+#footer ul{
+	list-style-type: none;
+	float:right;
+	margin-right:5%
+}
+
+#ul2{
+	float:right;
+	margin-right:5%
 	
 }
