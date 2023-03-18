@@ -44,7 +44,7 @@ nav ul li a {
     font-size: 180%;
 }
 
-li:hover {
+nav li:hover {
     animation: navigation 1s;
     background-color: rgba(92, 162, 185, 0.5);
     
@@ -67,7 +67,7 @@ h1{
 }
 
 h2{
-	width:50%;
+	
 	margin-left:10%;
 	
 }
@@ -88,21 +88,59 @@ h2{
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+#container2{
+	float:left;
+	
+	
+}
 #container2 img {
 	width:40%;
+
 }
 
 #footer{
-	background-color:rgba(92, 162, 185, 0.5);
-	height:100px;
+	background-color:#bfc9d2;
+	height:150px;
 }
 
-#footer img{
-	height:100px;
+#footer a img{
+	height:50px;
 	margin-left:5%;
+	margin-right:5%;
 }
 #footer a{
-	margin-left:10%;
-	Width:17%;
+
 	font-family:Verdana;
+	text-decoration: none;
+	color:red;
+}
+
+
+footer ul{
+	list-style-type: none;
+}
+
+#ul2{
+	float:right;
+	
+	
+}
+
+#download{
+	margin-left:30%
+}
+
+#about{
+	margin-left:30%;
+	
+}
+
+#shop{
+	float:right;
+}
+
+#premium{
+	margin-left:30%;
+	
 }

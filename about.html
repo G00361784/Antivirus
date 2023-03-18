@@ -35,7 +35,7 @@
 <div id="container">
 	<div id="aboutusmain">
 	
-	
+	<!--
 			<ul class="nav nav-tabs">
 			  <li class="nav-item">
 				<a class="nav-link active" aria-current="page" href="">Top of page</a>
@@ -44,34 +44,26 @@
 			  <li class="nav-item">
 				<a class="nav-link" href="#footer">Bottom of page</a>
 			  </li>
-			  <!--<li class="nav-item">
+			<li class="nav-item">
 				<a class="nav-link disabled">Disabled</a>
-			  </li>-->
-			</ul>
+			  </li>
+			</ul>-->
 
 		
 		
-		<div id="carouselExampleFade" class="carousel slide carousel-fade">
-		  <div class="carousel-inner">
-			<div class="carousel-item active">
-			  <img src="" class="d-block w-50" alt="...">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="..." class="d-block w-100" alt="...">
+				</div>
+			  </div>
 			</div>
-			<div class="carousel-item">
-			  <img src="..." class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-			  <img src="..." class="d-block w-100" alt="...">
-			</div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
-		</div>
 				
 		
 		<div id="container2">
@@ -82,11 +74,9 @@
 		
 	
 		
-		<h2>Text</h2>
-		
-		<p id = "p1">We are the one of the leading antivirus software providers out there <br>
-		We have alway worked towards offering the best service possible<br>We were founded
-		in ATU in 2023.
+		<h2>In our offices and in our homes the web is always within reach</h2>
+		<h3>ShellDefender will always protect you devices </h3>
+		<p id = "p1">
 		</p>
 		
 		<p id="p2">
@@ -103,15 +93,22 @@
   </div>
   
   <div id = "footer">
+	<footer>
+	
 		
 		<a href="index.html"><img class="logo" src="Photos/logo.png" alt="ShellDefender"></a>
-        <a href="download.html">Download</a>
-        <a href="About.html">About</a>
-        <a href="premium.html">Premium</a>
-        <a href="shop.html">Shop</a>
-        <a href="contactus.html">Contact Us</a>
-  
-   
+        <ul>
+		<li><a id= "download" href="download.html">Download</a></li>
+        <li><a id ="about" href="About.html">About</a></li>
+        <li><a id = "premium" href="premium.html">Premium</a></li>
+        
+		</ul>
+		
+		<ul id="ul2">
+		<li><a id = "shop" href="shop.html">Shop</a></li>
+        <li><a id = "contactus" href="contactus.html">Contact Us</a></li>
+		</ul>
+	</footer>
 	</div>
   </body>
  </html>
