@@ -49,4 +49,10 @@ Joseph McCole{
 		- updated about us page with content(unfinished)
 		- added some bootstrap functionality to about us page 
 
+  26/02 
+            - Added a selected class to the header items
+            - Added dots to feature tab
+            - Updated text
+            - Fixed whitespace problem in the header (resulting in unwated gaps between items)
+            
 }
