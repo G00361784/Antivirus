@@ -8,22 +8,23 @@ body {
 }
 
 .header {
+    position: relative; 
     background-color: #ffffff;
-    height: 20%;
+    height: 120px;
     max-width: 100%;
     border-bottom: 0.2vh solid rgb(197, 181, 181);
+}
+
+.logo{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 15px;
 }
 
 .selected {
     box-shadow: 0 -10px  red inset;
     
-}
-
-.logo {
-    float: left;
-    height: auto;
-    max-width: 320px;
-    margin-left: 15%;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 6% 20px;
+    padding: 15px 20px;
 }
 
 nav ul li a {
@@ -181,7 +182,8 @@ li:hover {
 }
 
 #footer a img{
-	height:100px;
+	max-height: auto;
+  max-width: 60px;
 	margin-left:5%;
 	margin-right:5%;
 }
@@ -225,6 +227,12 @@ li:hover {
 
 
 @media screen and (max-width: 768px){
+
+  .header {
+    position: relative;
+    background-color: #ffffff;
+    height: 164px;
+  }
     nav {
     display: flex;
     align-items: center;
@@ -240,15 +248,15 @@ li:hover {
       font-size: 86%;
     }
     nav ul li {
-        list-style-type: none;
-        display: block;
+      list-style-type: none;
+      display: grid;
+      padding: 8px 20px;
         margin-right: 20px;
       }
 
       .logo {
         content: url("../Photos/logo.png");
-        float: left;
-        margin-left: 10%;
+        margin-left: 70%;
         height: 100px;
         max-width: auto;
         
