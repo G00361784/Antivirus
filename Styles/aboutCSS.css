@@ -7,7 +7,9 @@ body {
     font-family:Verdana;
 
 }
-
+body, html {
+  height: 100%;
+}
 .header {
     background-color: #ffffff;
     height: 20%;
@@ -22,7 +24,7 @@ body {
     margin-left: 15%;
 }
 
-nav {
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,19 +34,19 @@ nav {
     margin-top: 0;
 }
 
-nav ul li {
+ul li {
     list-style-type: none;
     display: inline-block;
     padding: 6% 20px;
 }
 
-nav ul li a {
+ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 180%;
 }
 
-nav li:hover {
+li:hover {
     animation: navigation 1s;
     background-color: rgba(92, 162, 185, 0.5);
     
@@ -95,6 +97,19 @@ h2{
 	
 }
 
+
+.par{
+	background-image: url("Photos/logoAboutUsWP.jpg");
+
+
+	min-height:300px;
+	background-attachment: fixed;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
 
 #footer{
 	background-color:#bfc9d2;
