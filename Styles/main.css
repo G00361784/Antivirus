@@ -16,12 +16,13 @@ body {
 
 .selected {
     box-shadow: 0 -10px  red inset;
+    
 }
 
 .logo {
     float: left;
-    height: 60px;
-    max-width: auto;
+    height: auto;
+    max-width: 320px;
     margin-left: 15%;
 }
 
@@ -138,9 +139,9 @@ li:hover {
 }
 
 .frontprotection {
-    width: auto;
+    max-width: 100%;
     animation: animate 1.8s infinite  alternate;
-    height: 100%;
+    height: auto;
 }
 
 .download {
@@ -162,7 +163,7 @@ li:hover {
 }
 
 #footer{
-	background-color: rgba(136, 190, 207, 0.288);
+	background-color: rgba(136, 190, 207, 0.096);
 	/*margin-top: 700px;
 	margin-left: 150px;*/
 }
@@ -174,8 +175,8 @@ li:hover {
 	
 }
 #footer{
-	background-color:#bfc9d2;
-	height:100px;
+	background-color:#bfc9d260;
+	height:75px;
 	width:100%;
 }
 
@@ -202,3 +203,333 @@ li:hover {
 	margin-right:5%
 	
 }
+
+.footer-logo {
+    padding-top: 10px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+#footer > ul {
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 125%;
+      }
+    nav ul li {
+        list-style-type: none;
+        display: block;
+        padding: 6% 20px;
+      }
+
+      .logo {
+        float: left;
+        height: 80px;
+        max-width: auto;
+        margin-left: 5%;
+      }
+      .main-body {
+        background-color: rgba(189, 189, 189, 0.10);
+        text-align: left;
+        width: 75%;
+        margin: auto;
+        padding-top: 35px;
+        display: block;
+      }
+
+      .body-intro > h1 {
+        margin: 0;
+        font-size: 65px;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      .body-intro > p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 19px;
+        display: list-item;
+        list-style-type: square;
+        list-style-position: inside;
+        text-align: left;
+        padding-left: 0px;
+      }
+
+      .body-intro {
+        width: 100%;
+        box-sizing: inherit;
+      }
+
+      .main-body {
+        text-align: center;
+      }
+
+      .features {
+        padding: 2px;
+        display: flex;
+      }
+      .download {
+        height: auto;
+        padding-top: 0px;
+        padding-left: 0px;
+      }
+
+      .features-body {
+        background-color: rgba(48, 44, 44, 0.808);
+        text-align: center;
+        max-width: 100%;
+        height: 150px;
+        margin: auto;
+      }
+
+      .features > h1 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        display: inline;
+        font-family: 'Roboto Condensed', sans-serif;
+        max-width: 100%;
+      }
+
+      .dot {
+        height: 16px;
+        width: 16px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+    @media all and (max-width: 1142px) and (min-width: 769px){
+        nav ul li a {
+            font-size: 100%;
+          }
+
+
+        .body-intro > h1 {
+            margin: 0;
+            margin-left: 0px;
+            margin-left: 30px;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .body-intro > p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 19px;
+            display: list-item;
+            list-style-type: square;
+            list-style-position: inside;
+            padding-left: 55px;
+          }
+
+        .frontprotection {
+            width: auto;
+            animation: animate 1.8s infinite alternate;
+            height: 86%;
+            float: right -2px;
+        }
+
+        .features > h1 {
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            margin-left: 15px;
+            margin-right: 15px;
+            display: inline;
+            font-family: 'Roboto Condensed', sans-serif;
+            max-width: 100%;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .features-body {
+            background-color: rgba(48, 44, 44, 0.808);
+            text-align: center;
+            max-width: 100%;
+            height: 75px;
+            margin: auto;
+        }
+
+        .features {
+            padding: 27px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) and (min-width: 1142px)  {
+    nav ul li a {
+        font-size: 120%;
+    }
+  
+  .frontprotection {
+    width: auto;
+    animation: animate 1.8s infinite alternate;
+    height: 90%;
+    float: right -2px;
+  }
+  .main-body {
+    background-color: rgba(189, 189, 189, 0.10);
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+  }
+
+  .body-intro > h1 {
+    margin: 0;
+    margin-left: 0px;
+    margin-left: 30px;
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .body-intro > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: list-item;
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 55px;
+  }
+
+  .features > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .features-body {
+    background-color: rgba(48, 44, 44, 0.808);
+    text-align: center;
+    max-width: 100%;
+    height: 80px;
+    margin: auto;
+  }
+  .features {
+    padding: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1580px) and (min-width: 1284px){
+    nav ul li a {
+        font-size: 120%;
+    }
+  
+
+  .frontprotection {
+    width: auto;
+    animation: animate 1.8s infinite alternate;
+    height: 94%;
+    float: right -4px;
+  }
+
+  .body-intro > h1 {
+    margin: 0;
+    margin-left: 0px;
+    margin-left: 30px;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .body-intro > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    display: list-item;
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 55px;
+  }
+
+  .features > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .features-body {
+    background-color: rgba(48, 44, 44, 0.808);
+    text-align: center;
+    max-width: 100%;
+    height: 80px;
+    margin: auto;
+  }
+  .features {
+    padding: 25px;
+  } 
+}
+
