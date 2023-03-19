@@ -225,6 +225,15 @@ li:hover {
 
 
 @media screen and (max-width: 768px){
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 0;
+    }
     nav ul li a {
       text-decoration: none;
       font-weight: bold;
@@ -233,14 +242,20 @@ li:hover {
     nav ul li {
         list-style-type: none;
         display: block;
-        padding: 6% 20px;
+        margin-right: 20px;
       }
 
       .logo {
+        content: url("../Photos/logo.png");
         float: left;
-        height: 80px;
+        margin-left: 10%;
+        height: 100px;
         max-width: auto;
-        margin-left: 5%;
+        
+      }
+
+      .margin-top > li{
+        float: right;
       }
       .main-body {
         background-color: rgba(189, 189, 189, 0.10);
@@ -313,12 +328,6 @@ li:hover {
         display: inline-block;
     }
 
-    .logo {
-      float: none;
-      height: 30px;
-      max-width: auto;
-      margin-left: 0px;
-    }
     .download > img {
       max-height: 100%;
       width: 200px;
