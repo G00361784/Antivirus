@@ -17,28 +17,28 @@ Tomas Necesany {
   
   9/02 
   
-         - Simple HTML example with css
+	 - Simple HTML example with css
 
   11/02 
   
-        - Added animation to the logo and select effect to a navigation bar
+	- Added animation to the logo and select effect to a navigation bar
 
   15/02 
   
-        - Added ContactUs.html
-        - Optimized index.html
+	- Added ContactUs.html
+	- Optimized index.html
         
   22/02
   
-        - Continuing the index.html
-        - Fixed the bug where header list was changing to a wrong color after hovering over it.
+	- Continuing the index.html
+	- Fixed the bug where header list was changing to a wrong color after hovering over it.
 	
   14/03
   
-        - Changed colors of background
-        - Updated index.html
-        - Fixed links (all work now)
-        - Minor changes to CSS
+	- Changed colors of background
+	- Updated index.html
+	- Fixed links (all work now)
+	- Minor changes to CSS
 	
    19/03
    
