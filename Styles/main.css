@@ -14,6 +14,10 @@ body {
     border-bottom: 0.2vh solid rgb(197, 181, 181);
 }
 
+.selected {
+    box-shadow: 0 -10px  red inset;
+}
+
 .logo {
     float: left;
     height: 60px;
@@ -72,18 +76,26 @@ li:hover {
 }
 
 .features {
-    padding: 30px;
+    padding: 31px;
 }
 
 .features > h1 {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 25px;
     margin-right: 25px;
     display: inline;
     font-family: 'Roboto Condensed', sans-serif;
     max-width: 100%;
 }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 .center-body {
     background-color: rgba(189, 189, 189, 0.10);
@@ -177,8 +189,6 @@ li:hover {
 	text-decoration: none;
 	color:red;
 }
-
-
 
 
 #footer ul{
