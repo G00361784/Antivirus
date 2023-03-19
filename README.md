@@ -39,6 +39,14 @@ Tomas Necesany {
         - Updated index.html
         - Fixed links (all work now)
         - Minor changes to CSS
+	
+   19/03
+   
+	- Added a selected class to the header items
+	- Added dots to feature tab
+	- Updated text
+	- Fixed whitespace problem in the header (resulting in unwated gaps between items)
+       
 }
 
 Joseph McCole{
@@ -49,10 +57,4 @@ Joseph McCole{
 		- updated about us page with content(unfinished)
 		- added some bootstrap functionality to about us page 
 
-  26/02 
-            - Added a selected class to the header items
-            - Added dots to feature tab
-            - Updated text
-            - Fixed whitespace problem in the header (resulting in unwated gaps between items)
-            
 }
