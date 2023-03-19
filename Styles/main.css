@@ -226,10 +226,10 @@ li:hover {
 
 @media screen and (max-width: 768px){
     nav ul li a {
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 125%;
-      }
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 86%;
+    }
     nav ul li {
         list-style-type: none;
         display: block;
@@ -278,7 +278,7 @@ li:hover {
       }
 
       .features {
-        padding: 2px;
+        padding: 0px;
         display: flex;
       }
       .download {
@@ -297,20 +297,31 @@ li:hover {
 
       .features > h1 {
         color: rgb(255, 255, 255);
-        font-size: 25px;
-        margin-left: 25px;
-        margin-right: 25px;
+        font-size: 19px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: inline;
         font-family: 'Roboto Condensed', sans-serif;
         max-width: 100%;
       }
 
       .dot {
-        height: 16px;
-        width: 16px;
+        height: 8px;
+        width: 8px;
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
+    }
+
+    .logo {
+      float: none;
+      height: 30px;
+      max-width: auto;
+      margin-left: 0px;
+    }
+    .download > img {
+      max-height: 100%;
+      width: 200px;
     }
     }
 
@@ -383,6 +394,8 @@ li:hover {
         .features {
             padding: 27px;
         }
+
+        
     }
 
 
