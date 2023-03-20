@@ -17,7 +17,7 @@ Tomas Necesany {
   
   9/02 
   
-	 - Simple HTML example with css
+	- Simple HTML example with css
 
   11/02 
   
@@ -46,7 +46,7 @@ Tomas Necesany {
 	- Added dots to feature tab
 	- Updated text
 	- Fixed whitespace problem in the header (resulting in unwated gaps between items)
-       
+	- Made website responsive to Phone, small, medium, large devices
 }
 
 Joseph McCole{
