@@ -10,7 +10,7 @@ body {
 .header {
     position: relative; 
     background-color: #ffffff;
-    height: 120px;
+    height: 102px;
     max-width: 100%;
     border-bottom: 0.2vh solid rgb(197, 181, 181);
 }
@@ -29,7 +29,7 @@ body {
 
 nav {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     padding-top: 0;
     padding-left: 10%;
