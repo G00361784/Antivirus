@@ -183,7 +183,7 @@ li:hover {
 
 #footer a img{
 	max-height: auto;
-	max-width: 60px;
+	max-width: 100px;
 	margin-left:5%;
 	margin-right:5%;
 }
@@ -195,7 +195,8 @@ li:hover {
 
 #footer input{
 	 box-sizing: border-box;
-	margin-left:22%;
+	/*margin-left:22%;*/
+	background-color:#bfc9d260;
 }
 
 #footer ul{
