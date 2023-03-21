@@ -140,6 +140,7 @@ li:hover {
     font-family: 'Roboto Condensed', sans-serif;
 }
 .body-intro > p {
+  text-align: left;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     display: list-item;          
@@ -177,6 +178,9 @@ li:hover {
   height: auto;
   margin-top: 15px;
   box-shadow: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ImageSwap:hover{ 
   transform: scale(1.05) translateY(-5px);
@@ -204,7 +208,7 @@ li:hover {
 }
 #footer{
 	background-color:#bfc9d260;
-	height:350px;
+	height:80px;
 	width:100%;
 }
 
@@ -214,8 +218,8 @@ li:hover {
 }
 
 #footer a img{
-	max-height: auto;
-	max-width: 100px;
+	max-width: 78px;
+  max-height: 100px;
 	margin-left:5%;
 	margin-right:5%;
 }
@@ -247,10 +251,11 @@ li:hover {
 	/*margin-left:22%;*/
 	margin-top:2px;
 }
+
 #footer .logo {
     /*padding-top: 10px;*/
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 78px;
+    max-height: 100px;
 }
 
 #footer > ul {
