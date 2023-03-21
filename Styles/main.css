@@ -36,6 +36,9 @@ nav {
     padding-right: 10%;
     margin-top: 0;
 }
+a:visited{
+  color: none;
+}
 
 nav ul li {
     list-style-type: none;
