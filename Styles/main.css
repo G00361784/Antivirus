@@ -41,6 +41,7 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 15px 20px;
+    border-radius: 10px;
 }
 
 nav ul li a {
