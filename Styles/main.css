@@ -195,13 +195,13 @@ li:hover {
 }
 #footer{
 	background-color:#bfc9d260;
-	height:75px;
+	height:300px;
 	width:100%;
 }
 
 #footer a img{
 	max-height: auto;
-  max-width: 60px;
+	max-width: 100px;
 	margin-left:5%;
 	margin-right:5%;
 }
@@ -211,6 +211,11 @@ li:hover {
 	color:red;
 }
 
+#footer input{
+	box-sizing: border-box;
+	margin-left:22%;
+	background-color:#bfc9d260;
+}
 
 #footer ul{
 	list-style-type: none;
@@ -223,11 +228,14 @@ li:hover {
 	margin-right:5%
 	
 }
-
-.footer-logo {
-    padding-top: 10px;
-    max-width: 60px;
-    max-height: 60px;
+#footer p{
+	margin-left:22%;
+	margin-top:2px;
+}
+#footer .logo {
+    /*padding-top: 10px;*/
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #footer > ul {
