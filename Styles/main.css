@@ -109,13 +109,22 @@ li:hover {
 
 .center-body > h1,h2,h3,h4,h5,h6,p {
     margin: 0;
+    text-align: center;
+}
+
+.center-body > p {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header-font {
     font-size: 35px;
-    padding-top: 50px;
+    padding-top: 18px;
     margin-left: 25px;
 }
+
+
 
 .body-intro{
     width: 50%;
@@ -163,6 +172,15 @@ li:hover {
     100% { transform: translateY(-10px); }
 }
 
+.ImageSwap{
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  box-shadow: 5px;
+}
+.ImageSwap:hover{ 
+  transform: scale(1.05) translateY(-5px);
+}
 #footer{
 	background-color: rgba(136, 190, 207, 0.096);
 	/*margin-top: 700px;
