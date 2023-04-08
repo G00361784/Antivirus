@@ -63,6 +63,11 @@ li:hover {
     animation: animate 1s infinite  alternate;
 }
 
+.cart {
+  width: 30px;
+  height: auto;
+}
+
 .main-body {
     background-color: rgba(189, 189, 189, 0.10);
     text-align: left;
