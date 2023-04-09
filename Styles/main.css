@@ -55,7 +55,7 @@ nav ul li a {
 
 li:hover {
     animation: navigation 1s;
-    background-color: rgba(92, 162, 185, 0.5);
+    background-color: rgb(228, 228, 228);
     
 }
 
@@ -174,7 +174,7 @@ li:hover {
 
 @keyframes navigation {
     0%   {background-color:rgba(92, 162, 185, 0)}
-    100%   {background-color:rgba(92, 162, 185, 0.5)}
+    100%   {background-color:rgb(228, 228, 228)}
   }
 
 @keyframes animate{
