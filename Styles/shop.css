@@ -37,6 +37,7 @@
   box-sizing: border-box;
   border: solid 3px;
   border-radius: 6px;
+  
 }
 
 .item > h2 {
@@ -46,6 +47,7 @@
   color: #333;
   text-decoration: none;
   display: block ruby;
+  font-size: 1vw;
 }
 
 .item > img {
