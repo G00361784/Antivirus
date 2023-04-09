@@ -45,6 +45,7 @@
   font-weight:900;
   color: #333;
   text-decoration: none;
+  display: block ruby;
 }
 
 .item > img {
