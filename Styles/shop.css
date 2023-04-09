@@ -47,9 +47,15 @@
 }
 
 .item > img {
-  width: 100%;
+  width: 75%;
   padding-bottom: 5px;
+  object-fit: cover;
+  transition: all .3s ease;
+}
 
+.item > img:hover {
+  transform: scale(1.2);
+  }
 }
 
 .price {
