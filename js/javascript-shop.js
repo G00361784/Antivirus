@@ -1,4 +1,3 @@
-// All Javascript written by Jeffrey B. Madden 2019.
 (function() {
 var Shop = function( element ) {
    this.element = document.getElementById(element) ;
