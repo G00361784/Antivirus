@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="Styles/main.css">
+   <link rel="stylesheet" href="Styles/cart.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ShellDefender</title>
+   <link rel = "icon" href = "Photos/logo.png" type = "image/x-icon">
+   <style>
+     @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+   </style>
+   <meta http-equiv="content-type" content="text/html;charset=utf-8"  />
+</head>
+
+<body>
+   <div class="header">
+      <nav>
+        <a href="index.html"><img class="logo" src="Photos/biglogo.png" alt="ShellDefender"></a>
+        <ul style="margin-top: 0px;margin-bottom: 0px;">
+          <li><a href="index.html">Home</a></li><!--
+           --><li><a href="download.html">Download</a></li><!--
+           --><li><a href="about.html">About</a></li><!--
+           --><li><a href="shop.html">Shop</a></li><!--
+           --><li><a href="contactus.html">Contact Us</a></li><!--
+           --><li class="selected"><a href="cart.html"><img class="cart" src="Photos/cart.png"></a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="main-body">
+      <div class="body-center">
+        <div class="container">
+            <form action="cart.html" method="post" id="shopping-cart">
+               <table class="shopping-cart">
+                  <thead>
+                     <tr>
+                        <th>Photo</th>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                     </tr>
+                  </thead>
+
+                  <tbody></tbody>
+               </table>
+
+               <p><b>Sub Total: </b><span id="stotal"></span></p>
+
+               <ul id="shopping-cart-actions">
+                  <li><input type="submit" name="update" id="update-cart" class="btn" value="Update cart"  /></li>
+                  <li><a href="index.html" class="btn">Continue Shopping</a></li>
+                  <li><input type="submit" name="delete" id="empty-cart" class="btn" value="Empty cart"  /></li>
+                  <li><a href="checkout.html" class="btn">Go To Checkout</a></li>
+               </ul>
+            </form>
+         </div> 
+      </div>
+    </div>
+
+<script type="text/javascript" src="js/javascript-shop.js"></script>
+
+</body>
+</html>

@@ -40,49 +40,89 @@
         
         <div class="shop-items">
 
-            <div class="item">
-              <h2>ShellDefender Mug</h2>
-              <img src="Photos/Products/mug.png">
-              <p class="price">12.99 €</p>
-              <button>Add to cart</button>
+          <div class="item">
+            <h2 class="product-name">ShellDefender Mug</h2>
+            <img src="Photos/Products/ShellDefender Mug.png">
+            <div class="price">
+              <p class="product-price">16.99</p><span>€</span>
             </div>
-
-            <div class="item">
-              <h2>ShellDefender Stainless Bottle</h2>
-              <img src="Photos/Products/stainlessbottle.png">
-              <p class="price">16,90 €</p>
-              <button>Add to cart</button>
-            </div>
-
-            <div class="item">
-              <h2>ShellDefender T-Shirt</h2>
-              <img src="Photos/Products/tshirt.png">
-              <p class="price">15.99€</p>
-              <button>Add to cart</button>
-            </div>
-
-            <div class="item">
-              <h2>ShellDefender Baseball Cap</h2>
-              <img src="Photos/Products/hat.png">
-              <p class="price">14.99 €</p>
-              <button>Add to cart</button>
-            </div>
-
-            <div class="item">
-              <h2>ShellDefender DrawString Bag</h2>
-              <img src="Photos/Products/bag.png">
-              <p class="price">7,99 €</p>
-              <button>Add to cart</button>
-            </div>
+            <form action="cart.html" method="post" class="add-to-cart">
+              <div>
+                 <label for="qty-1">Quantity</label>
+                 <input type="number" name="qty-1" id="qty-1" class="qty" value="1"  />
+                 <p><input type="submit" value="Add to cart" id="inputCart" class="btn"  /></p>
+              </div>
+           </form>
         </div>
-            
 
-            
+        
+        <div class="item">
+          <h2 class="product-name">ShellDefender Stainless Bottle</h2>
+          <img src="Photos/Products/ShellDefender Stainless Bottle.png">
+          <div class="price">
+            <p class="product-price">15.99</p><span>€</span>
+          </div>
+          <form action="cart.html" method="post" class="add-to-cart">
+            <div>
+               <label for="qty-1">Quantity</label>
+               <input type="number" name="qty-1" id="qty-1" class="qty" value="1"  />
+               <p><input type="submit" value="Add to cart" id="inputCart" class="btn"  /></p>
+            </div>
+         </form>
+      </div>
+
+      
+      <div class="item">
+        <h2 class="product-name">ShellDefender T-Shirt</h2>
+        <img src="Photos/Products/ShellDefender T-Shirt.png">
+        <div class="price">
+          <p class="product-price">15.99</p><span>€</span>
+        </div>
+        <form action="cart.html" method="post" class="add-to-cart">
+          <div>
+             <label for="qty-1">Quantity</label>
+             <input type="number" name="qty-1" id="qty-1" class="qty" value="1"  />
+             <p><input type="submit" value="Add to cart" id="inputCart" class="btn"  /></p>
+          </div>
+       </form>
+    </div>
+
+    
+    <div class="item">
+      <h2 class="product-name">ShellDefender Baseball Cap</h2>
+      <img src="Photos/Products/ShellDefender Baseball Cap.png">
+      <div class="price">
+        <p class="product-price">14.99</p><span>€</span>
+      </div>
+      <form action="cart.html" method="post" class="add-to-cart">
+        <div>
+           <label for="qty-1">Quantity</label>
+           <input type="number" name="qty-1" id="qty-1" class="qty" value="1"  />
+           <p><input type="submit" value="Add to cart" id="inputCart" class="btn"  /></p>
+        </div>
+     </form>
+  </div>
+
+  <div class="item">
+    <h2 class="product-name">ShellDefender DrawString Bag</h2>
+    <img src="Photos/Products/ShellDefender DrawString Bag.png">
+    <div class="price">
+      <p class="product-price">7.99</p><span>€</span>
+    </div>
+    <form action="cart.html" method="post" class="add-to-cart">
+      <div>
+         <label for="qty-1">Quantity</label>
+         <input type="number" name="qty-1" id="qty-1" class="qty" value="1"  />
+         <p><input type="submit" value="Add to cart" id="inputCart" class="btn"  /></p>
+      </div>
+   </form>
+</div>
+
 
       </div> 
     </div>
   </div>
-
+</div>
 
 
    <div id = "footer">
@@ -103,6 +143,8 @@
 		</ul>
 
 	</div>
-  
+
+
+  <script type="text/javascript" src="js/javascript-shop.js"></script>
   </body>
 </html>
