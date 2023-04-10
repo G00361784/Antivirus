@@ -83,7 +83,7 @@ button:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#inputCart {
+#inputCart{
   margin: 10px;
   background-color: #e40404; /* Green */
   border: none;
@@ -103,6 +103,8 @@ button:hover {
   transform: translateY(-0.25em);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
 
 .price{
   display: flex;

@@ -86,9 +86,11 @@ input:hover {
 nav ,ul { list-style-type: none; }
 
 #shopping-cart-actions{
+  
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  
 }
 
 #shopping-cart-actions > li{
@@ -101,4 +103,18 @@ nav ,ul { list-style-type: none; }
 
 th {
   padding: 0px 150px 0px 150px;
+}
+
+li > a#inputCart , li > a#RedButton{
+  margin: 10px;
+  background-color: #9da803fb; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

@@ -7,7 +7,7 @@ var Shop = function( element ) {
 Shop.prototype = {
    // Properties
    init : function() {
-      this.cartPrefix = "winery-" ;
+      this.cartPrefix = "ShellDfender-" ;
       this.cartName = this.cartPrefix + "cart" ;
       this.shippingRates = this.cartPrefix + "shipping-rates" ;
       this.total = this.cartPrefix + "total" ;
@@ -78,7 +78,7 @@ Shop.prototype = {
             var subTotal = qty * price ;
             var total = self._convertString(self.storage.getItem(self.total)) ;
             var sTotal = total + subTotal ;
-            self.storage.setItem(self.total , sTotal) ;
+            self.storage.setItem(self.total , sTotal.toFixed(2)) ;
             self._addToCart({ product : name , price : price , qty : qty }) ;
             var shipping = self._convertString(self.storage.getItem(self.shippingRates)) ;
             var shippingRates = self._calculateShipping(qty) ;
