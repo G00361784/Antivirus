@@ -40,8 +40,12 @@ ul {
   padding-top: 20px;
 }
 
-a:visited{
-  color: none;
+a {
+  color: #5300b7;
+}
+
+a:visited {
+  color: #5300b7;
 }
 
 nav ul li {
