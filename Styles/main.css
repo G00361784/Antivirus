@@ -29,13 +29,17 @@ body {
 
 nav {
     display: flex;
-    align-items: end;
     justify-content: space-between;
     padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 0;
 }
+
+ul {
+  padding-top: 20px;
+}
+
 a:visited{
   color: none;
 }
@@ -284,7 +288,7 @@ li:hover {
     background-color: #ffffff;
     height: 164px;
   }
-    nav {
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -292,179 +296,209 @@ li:hover {
     padding-left: 0%;
     padding-right: 0%;
     margin-top: 0;
-    }
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 86%;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: grid;
+    padding: 8px 20px;
+    margin-right: 20px;
+  }
+
+  ul{
+    padding-top: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+  .logo {
+    content: url("../Photos/logo.png");
+    height: 80%;
+    max-width: 300px;
+    margin-top: 6px;
+  }
+
+  .margin-top > li{
+    float: right;
+  }
+  .main-body {
+    background-color: rgba(189, 189, 189, 0.10);
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    padding-top: 35px;
+    display: block;
+  }
+
+  .body-intro > h1 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .body-intro > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    display: list-item;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .body-intro {
+    width: 100%;
+    box-sizing: inherit;
+  }
+
+  .main-body {
+    text-align: center;
+  }
+
+  .features {
+    padding: 0px;
+    display: flex;
+  }
+  .download {
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .features-body {
+    background-color: rgba(48, 44, 44, 0.808);
+    text-align: center;
+    max-width: 100%;
+    height: 150px;
+    margin: auto;
+  }
+
+  .features > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.download > img {
+  max-height: 100%;
+  width: 200px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1142px) and (min-width: 769px){
     nav ul li a {
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 86%;
-    }
-    nav ul li {
-      list-style-type: none;
-      display: grid;
-      padding: 8px 20px;
-        margin-right: 20px;
+        font-size: 100%;
+      }
+
+      ul {
+        padding-top: 33px;
+      }
+      body {
+        font-size: 16px;
+        font-family: Verdana;
+      }
+
+      nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px 5px 0 0;
       }
 
       .logo {
-        content: url("../Photos/logo.png");
-        margin-left: 70%;
-        height: 100px;
-        max-width: auto;
-        
+        width: 97%;
+        max-width: 232px;
+        height: auto;
+        margin-top: 34px;
       }
 
-      .margin-top > li{
-        float: right;
-      }
-      .main-body {
-        background-color: rgba(189, 189, 189, 0.10);
-        text-align: left;
-        width: 75%;
-        margin: auto;
-        padding-top: 35px;
-        display: block;
-      }
 
-      .body-intro > h1 {
+    .body-intro > h1 {
         margin: 0;
-        font-size: 38px;
+        margin-left: 0px;
+        margin-left: 30px;
+        font-size: 36px;
         text-align: center;
         font-family: 'Roboto Condensed', sans-serif;
-      }
+    }
 
-      .body-intro > p {
+    .body-intro > p {
         font-family: 'Raleway', sans-serif;
         font-size: 19px;
         display: list-item;
         list-style-type: square;
         list-style-position: inside;
-        text-align: left;
-        padding-left: 0px;
+        padding-left: 55px;
       }
 
-      .body-intro {
-        width: 100%;
-        box-sizing: inherit;
-      }
+    .frontprotection {
+        width: auto;
+        animation: animate 1.8s infinite alternate;
+        height: 86%;
+        float: right -2px;
+    }
 
-      .main-body {
-        text-align: center;
-      }
-
-      .features {
-        padding: 0px;
-        display: flex;
-      }
-      .download {
-        height: auto;
-        padding-top: 0px;
-        padding-left: 0px;
-      }
-
-      .features-body {
-        background-color: rgba(48, 44, 44, 0.808);
-        text-align: center;
-        max-width: 100%;
-        height: 150px;
-        margin: auto;
-      }
-
-      .features > h1 {
+    .features > h1 {
         color: rgb(255, 255, 255);
-        font-size: 19px;
-        margin-left: 10px;
-        margin-right: 10px;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
         display: inline;
         font-family: 'Roboto Condensed', sans-serif;
         max-width: 100%;
-      }
+    }
 
-      .dot {
-        height: 8px;
-        width: 8px;
+    .dot {
+        height: 12px;
+        width: 12px;
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
     }
 
-    .download > img {
-      max-height: 100%;
-      width: 200px;
+    .features-body {
+        background-color: rgba(48, 44, 44, 0.808);
+        text-align: center;
+        max-width: 100%;
+        height: 75px;
+        margin: auto;
     }
+
+    .features {
+        padding: 27px;
     }
 
-
-
-
-
-
-
-
-
-
-    @media screen and (max-width: 1142px) and (min-width: 769px){
-        nav ul li a {
-            font-size: 100%;
-          }
-
-
-        .body-intro > h1 {
-            margin: 0;
-            margin-left: 0px;
-            margin-left: 30px;
-            font-size: 36px;
-            text-align: center;
-            font-family: 'Roboto Condensed', sans-serif;
-        }
-
-        .body-intro > p {
-            font-family: 'Raleway', sans-serif;
-            font-size: 19px;
-            display: list-item;
-            list-style-type: square;
-            list-style-position: inside;
-            padding-left: 55px;
-          }
-
-        .frontprotection {
-            width: auto;
-            animation: animate 1.8s infinite alternate;
-            height: 86%;
-            float: right -2px;
-        }
-
-        .features > h1 {
-            color: rgb(255, 255, 255);
-            font-size: 18px;
-            margin-left: 15px;
-            margin-right: 15px;
-            display: inline;
-            font-family: 'Roboto Condensed', sans-serif;
-            max-width: 100%;
-        }
-
-        .dot {
-            height: 12px;
-            width: 12px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        .features-body {
-            background-color: rgba(48, 44, 44, 0.808);
-            text-align: center;
-            max-width: 100%;
-            height: 75px;
-            margin: auto;
-        }
-
-        .features {
-            padding: 27px;
-        }
-
-        
-    }
+    
+}
 
 
 
@@ -477,8 +511,17 @@ li:hover {
 
 @media screen and (max-width: 1280px) and (min-width: 1142px)  {
     nav ul li a {
-        font-size: 120%;
+        font-size: 100%;
     }
+
+    
+
+    .logo{
+      width: 97%;
+      max-width: 300px;
+      height: auto;
+      margin-top: 22px;
+  }
   
   .frontprotection {
     width: auto;
@@ -541,6 +584,7 @@ li:hover {
   .features {
     padding: 25px;
   }
+
 }
 
 
@@ -556,6 +600,13 @@ li:hover {
 @media screen and (max-width: 1580px) and (min-width: 1284px){
     nav ul li a {
         font-size: 120%;
+    }
+
+    .logo{
+        width: 97%;
+        max-width: 345px;
+        height: auto;
+        margin-top: 22px;
     }
   
 

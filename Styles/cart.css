@@ -3,6 +3,7 @@
     text-align: center;
     justify-content: center;
     justify-items: center;
+    display: flex;
 }
 
 .body-center {
@@ -118,3 +119,79 @@ li > a#inputCart , li > a#RedButton{
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
+@media screen and (max-width: 768px){
+  th {
+    padding: 0px 0px 0px 0px;
+  }
+  .main-body {
+    text-align: left;
+  }
+
+  td > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .body-center {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1142px) and (min-width: 769px){
+  th {
+    padding: 0px 20px 0px 20px;
+  }
+  .main-body {
+    text-align: left;
+  }
+
+  td > img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .body-center {
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1142px)  {
+  th {
+    padding: 0px 0px 0px 0px;
+  }
+  .main-body {
+    text-align: left;
+  }
+
+  td > img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .body-center {
+    width: 79%;
+  }
+}
+
+
+@media screen and (max-width: 1892px) and (min-width: 1280px){
+  th {
+    padding: 0px 15px 0px 15px;
+  }
+  .main-body {
+    text-align: left;
+  }
+
+  td > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .body-center {
+    width: 79%;
+  }
+}
+
