@@ -416,7 +416,7 @@ li:hover {
 }
 
 #DownCon{
-	background-color:red;
+	background-color:;
 	position:absolute;
 	margin-top:400px;
 	width:100%;
@@ -431,7 +431,13 @@ li:hover {
 	margin-left:40%;
 	width:20%;
 }
-
+.parallax-section {
+  background-image: url('Photos/logo.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px; /* Adjust as needed */
+}
 
 
 
