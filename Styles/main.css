@@ -411,8 +411,26 @@ li:hover {
 
 
 
+#Caro{
+	margin-left:30%;
+}
 
+#DownCon{
+	background-color:red;
+	position:absolute;
+	margin-top:400px;
+	width:100%;
+}
 
+#DownCon h1 {
+	margin-left:40%;
+	width:20%;
+	
+}
+#DownCon a{
+	margin-left:40%;
+	width:20%;
+}
 
 
 
