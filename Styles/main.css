@@ -431,14 +431,32 @@ li:hover {
 	margin-left:40%;
 	width:20%;
 }
-.parallax-section {
-  background-image: url('Photos/biglogo.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  height: 500px; /* Adjust as needed */
+.parallax {
+  position: relative;
+  height: 1000px;
 }
 
+.parallax__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("Photos/logoAboutUsWP.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+}
+
+.parallax__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
 
 
 
