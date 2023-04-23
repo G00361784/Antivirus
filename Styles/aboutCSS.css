@@ -78,8 +78,8 @@ h2{
 }
 
 #aboutusmain{
-	align-items:center;
-	justify-content: center;
+	text-align:center;
+/*justify-content: center;*/
 	
 }
 #aboutusmain img{
@@ -101,18 +101,23 @@ h2{
 	width:70%
 	
 }
-#leftH2{
-	float:left;
-	
-}
+
 
 #leftWePro{
 	float: left;
+	width:50%;
+
 }
 
 #rightWePro{
 	float:right;
-	
+	width:50%;
+}
+
+#map{
+	width:100%;
+	align-items:center;
+	margin-top:10%;
 }
 
 .par{
