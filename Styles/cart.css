@@ -64,21 +64,26 @@
 }
 
 input {
+  cursor: pointer;
   margin: 10px;
-  background-color: #e40404; /* Green */
+  background-color: #79B016;
   border: none;
   color: white;
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  float: right;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width: 150px;
+  width: 201px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 50px;
 }
 
-input:hover {
+input:hover, #inputCart:hover, #RedButton:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -108,16 +113,21 @@ th {
 
 li > a#inputCart , li > a#RedButton{
   margin: 10px;
-  background-color: #9da803fb; /* Green */
+  background-color: #79B016;
   border: none;
   color: white;
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  float: left;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 201px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
@@ -136,6 +146,10 @@ li > a#inputCart , li > a#RedButton{
 
   .body-center {
     width: 100%;
+  }
+
+  input, li > a#inputCart , li > a#RedButton {
+    float: left;
   }
 }
 
@@ -156,7 +170,12 @@ li > a#inputCart , li > a#RedButton{
   .body-center {
     width: 79%;
   }
+
+  input, li > a#inputCart , li > a#RedButton {
+    float: left;
+  }
 }
+
 
 @media screen and (max-width: 1280px) and (min-width: 1142px)  {
   th {
