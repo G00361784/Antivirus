@@ -71,7 +71,7 @@ input {
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  float: left;
+  float: right;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
