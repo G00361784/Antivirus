@@ -65,7 +65,7 @@
 
 input {
   margin: 10px;
-  background-color: #e40404; /* Green */
+  background-color: #79B016; /* Green */
   border: none;
   color: white;
   padding: 8px 20px;
@@ -108,7 +108,7 @@ th {
 
 li > a#inputCart , li > a#RedButton{
   margin: 10px;
-  background-color: #9da803fb; /* Green */
+  background-color: #79B016; /* Green */
   border: none;
   color: white;
   padding: 8px 20px;
