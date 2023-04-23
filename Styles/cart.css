@@ -65,17 +65,17 @@
 
 input {
   margin: 10px;
-  background-color: #79B016; /* Green */
+  background-color: #79B016;
   border: none;
   color: white;
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  float: right;
+  float: left;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width: 180px;
+  width: 201px;
 }
 
 input:hover {
