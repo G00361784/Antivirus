@@ -101,7 +101,19 @@ h2{
 	width:70%
 	
 }
+#leftH2{
+	float:left;
+	
+}
 
+#leftWePro{
+	float: left;
+}
+
+#rightWePro{
+	float:right;
+	
+}
 
 .par{
 	background-image: url("Photos/logoAboutUsWP.jpg");
