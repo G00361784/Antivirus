@@ -47,6 +47,17 @@ Tomas Necesany {
 	- Updated text
 	- Fixed whitespace problem in the header (resulting in unwated gaps between items)
 	- Made website responsive to Phone, small, medium, large devices
+	
+	
+   10/04
+   
+	- Added Shopping cart with fully working shop
+	- Added pictures to all of the shop items
+	- Changed colors of the navigation bar
+	- Responsive on all devices
+	- Fixed a lot of bugs including items not centering, divs going out of bound, and more
+	- New animations for item hover and select boxes
+	
 }
 
 Joseph McCole{
