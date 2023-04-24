@@ -426,30 +426,17 @@ li:hover {
 	width:20%;
 }
 .parallax {
-  position: relative;
-  height: 1000px;
-}
+  /* The image used */
+  background-image: url("Photos/box.jpg");
 
-.parallax__bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("Photos/logoAboutUsWP.jpg");
-  background-size: cover;
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  z-index: -1;
-}
-
-.parallax__content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
+  background-size: cover;
 }
 
 
