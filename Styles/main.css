@@ -41,11 +41,11 @@ ul {
 }
 
 a {
-  color: #2c3868;;
+  color: #2c3868;
 }
 
 a:visited {
-  color: #2c3868;;
+  color: #2c3868;
 }
 
 nav ul li {
@@ -227,6 +227,8 @@ li:hover {
 	background-color:#bfc9d260;
 	height:80px;
 	width:100%;
+	position:absolute;
+	margin-top:700px;
 }
 
 #input{
@@ -244,6 +246,7 @@ li:hover {
 	font-family:Verdana;
 	text-decoration: none;
 	color:red;
+	margin-top:70%;
 }
 
 #footer input{
@@ -281,7 +284,43 @@ li:hover {
 }
 
 
+#SDown{
+	margin-top:10%;
+    animation: animate 1s infinite  alternate;
+    background-color: rgb(228, 228, 228);
+    
+}
+	
+#DownCon{
+	background-color:red;
+	position:absolute;
+	margin-top:400px;
+	width:100%;
+}
 
+#DownCon h1 {
+	margin-left:10%;
+	width:20%;
+	
+}
+
+#Downcon h2{
+	margin-left:30%;
+	
+}
+#DownCon a{
+	margin-left:40%;
+	width:20%;
+}
+.parallax {
+
+  background-image: url("Photos/box.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -409,31 +448,7 @@ li:hover {
   }
   }
 
-#DownCon{
-	background-color:red;
-	position:absolute;
-	margin-top:400px;
-	width:100%;
-}
 
-#DownCon h1 {
-	margin-left:40%;
-	width:20%;
-	
-}
-#DownCon a{
-	margin-left:40%;
-	width:20%;
-}
-.parallax {
-
-  background-image: url("Photos/box.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 
