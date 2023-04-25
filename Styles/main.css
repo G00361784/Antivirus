@@ -315,7 +315,7 @@ li:hover {
 }
 .parallax {
 
-  /*background-image: url("Photos/box.jpg");*/
+  background-image: url("Photos/box.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
