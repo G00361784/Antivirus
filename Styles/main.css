@@ -288,7 +288,8 @@ li:hover {
 	margin-top:10%;
     animation: animate 1s infinite  alternate;
     background-color: rgb(228, 228, 228);
-    
+    width:30%;
+	margin-left:35%;
 }
 	
 #DownCon{
@@ -314,7 +315,7 @@ li:hover {
 }
 .parallax {
 
-  background-image: url("Photos/box.jpg");
+  /*background-image: url("Photos/box.jpg");*/
   height: 500px;
   background-attachment: fixed;
   background-position: center;
