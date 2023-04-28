@@ -92,10 +92,9 @@
       
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Ask us about something!" style="height:200px"></textarea>
-
-          <input type="submit" value="Submit">
       
         </form>
+        <button onclick="submit()" value="Submit">Submit</button>
       </div> 
     </div>
   </div>
@@ -113,6 +112,16 @@
     </ul>
   
   </div>
+
+  <div id="popupForm" style="display:none;">
+    <div id="popcontent">
+      <p>Email was sent! You will be contacted soon about your question.<br><br>
+        You will be redirected to home page.
+      </p>
+    </div>
+  </div>
   
+
+  <script type="text/javascript" src="js/contactus.js"></script>
   </body>
 </html>
